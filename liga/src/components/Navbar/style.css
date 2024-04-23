@@ -1,0 +1,153 @@
+.navbar-bg{
+    background-color: rgb(43,43,43);
+}
+.container-fluid {
+    width: 95%;
+    margin: auto;
+}
+.nav-txt{
+    color: rgb(194,194,194);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.nav-item2{
+    color: rgb(194,194,194);
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.nav__txt-link{
+    text-decoration: none;
+}
+.Navbar__register{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.nav__span-forms p{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(194,194,194);
+}
+
+.navbar__input{
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 5px;
+  color: #333;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+/* Стили для модального окна */
+.ReactModal__Overlay {
+    /* Установка фонового цвета для оверлея */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Черный полупрозрачный цвет */
+  }
+  
+  .ReactModal__Content {
+    /* Стили для контента модального окна */
+    color: #fff; /* Белый цвет текста */
+    border-radius: 5px; /* Скругление углов */
+    padding: 20px; /* Внутренний отступ */
+    max-width: 80%; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование по горизонтали */
+
+
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        word-spacing: 0px;
+        background-color: rgb(55, 55, 55) !important;
+  }
+  
+  /* Медиа-запросы для адаптации под различные устройства */
+  @media (max-width: 768px) {
+    .ReactModal__Content {
+      max-width: 90%; /* При маленьких экранах уменьшаем ширину контента */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .ReactModal__Content {
+      max-width: 95%; /* При очень маленьких экранах еще больше уменьшаем ширину контента */
+    }
+  }
+.pagination__link{
+    color: aqua;
+    padding: 0px 10px;
+}
+.pagination__link{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    
+    
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.pagination{
+    padding: 0px 50px;
+}
+
+.pagination__link--disabled{
+    background-color: #494949 !important;
+
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.previous{
+    
+    background-color: #4caf4fb8 ;
+}
+
+.next, .pagination__link--disabled {
+    background-color: #4caf4fb8 ;
+
+
+}
+.pagination__link--active{
+    color:  #56ff5cb8 ;
+
+}
+.collapse, .collapsing {
+    
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:990px) {
+    
+    .navbar__forms-right{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
+
+.navbar_raspisanie-dropdown{
+    text-decoration: none;
+}
+.nav-item{
+    cursor: pointer;
+}
+.dropdown-list li{
+    text-decoration: none;
+}

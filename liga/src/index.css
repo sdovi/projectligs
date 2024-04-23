@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.forms__sections {
+  background-color: #222; /* цвет фона для темной темы */
+  color: #fff; /* цвет текста для темной темы */
+}
+.vsfsdf{
+  display: flex;
+}
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc; /* цвет границы вкладок */
+  display: block !important;
+  justify-content: start;
+  align-items: center;
+  background-color: #333; /* цвет фона вкладок */
+}
+
+.tab button {
+  background-color: inherit;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+
+.tab button:hover {
+  background-color: #ddd; /* цвет фона при наведении на вкладку */
+  color: black;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.personal-info {
+  margin-top: 20px;
+  background-color: #444; /* цвет фона блока с личными данными */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.profile__Sect{
+  width: 50%;
+  margin: auto;
+}
+/* profileStyles.css */
+
+.logoutButton {
+  background-color: rgba(255, 79, 79, 0.602);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.change-password-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+    background-color: #373737;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(200, 200, 200, 0.1);
+}
+
+.change-password-form .form-group {
+  margin-bottom: 20px;
+}
+
+.change-password-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.change-password-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.change-password-form .change-password-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-password-form .change-password-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.awvaw{
+  
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

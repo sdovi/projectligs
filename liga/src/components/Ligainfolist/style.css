@@ -1,0 +1,28 @@
+.ligainfo__sect{
+    min-height: 100vh;
+    background-color: #373737;
+}
+
+.ligainfo__sect{
+    color: white;
+}
+.profile_foto img{
+    max-width: 150px;
+    width: 100%;
+
+}
+.ligainfo__sect{
+    padding-top: 50px;
+}
+.params_key{
+    font-size: clamp(12px,5vw,16px);
+}
+.profile_info_title {
+    padding-top: 50px;
+}
+
+.ligainfo__subs-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,286 @@
+
+.basketball-img16 img{
+
+}.forms__sections{
+    min-height: 100vh;
+    background-color: #373737;
+}
+.game_block {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .game_link {
+   display: grid;
+   grid-template-columns: 25% 50% 25%;
+   justify-items: center;
+   align-items: center;
+   margin: 0 auto; /* Добавлено */
+ }
+ 
+
+.forms_com-block{
+   padding-top: 10px;
+}
+.forms_com-block {
+   transition: background-color 0.3s ease; /* Плавное изменение цвета фона за 0.3 секунды */
+}
+
+.forms_com-block:hover {
+   background-color: rgba(153, 153, 153, 0.083); /* Цвет фона при наведении */
+}
+.gls {
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 15.4px;
+
+   color: rgb(255, 255, 255);
+
+   min-height: 15.9943px;
+   min-width: 15px;
+   
+   max-height: 15.9943px;
+   max-width: 15px;
+   text-align: center;
+   display: inline-block; 
+
+
+}
+.gls p {
+   margin-bottom: 0px;
+}
+.ht {
+   width: 100%;
+   display: flex;
+   
+   width: calc(50% - 0.05rem);
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   text-align: center;
+   justify-content: flex-end;
+   white-space: nowrap;
+}
+.at{
+   align-items: center;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: reverse;
+   -ms-flex-direction: row-reverse;
+   flex-direction: row-reverse;
+       width: calc(50% - 0.05rem);
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   justify-content: flex-end;
+   white-space: nowrap;
+   
+   
+}
+.result {
+   display: grid;
+   grid-template-columns: 40px 40px;
+   justify-items: center;
+   align-items: center ;
+   text-align: center;
+ }
+.gls{
+   border: none;
+   vertical-align: middle;
+   display: inline-block; /* добавлено свойство */
+   
+   text-decoration: none;
+}
+.size11 {
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 20px;
+   text-decoration: none;
+   color: rgb(188, 188, 188);
+   border: none;
+   vertical-align: middle;
+   display: inline-block; /* добавлено свойство */
+}
+.img16{
+   display: flex;
+   width: 100%;
+   align-items: center;
+}
+.img16 img{
+   width: 15px;
+   height: 15px;
+
+}
+
+.img16 span {
+   
+   font-weight: 700;
+   color: rgb(184, 184, 184);
+   display: inline-block;
+   text-decoration: none;
+   border-bottom: none; /* Попробовал убрать полоску снизу текста */
+}
+
+
+
+.img16 {
+   display: flex;
+   width: 100%;
+   border-bottom: none; /* Добавлено */
+}
+
+
+
+
+.stage{
+   display: inline-block;
+   text-decoration: none;
+   color: rgb(184, 184, 184);
+   line-height: 15px;
+
+}
+
+.icons{
+   display: none;
+}
+
+
+
+.forms__pagination {
+ display: flex;
+ justify-content: center;
+}
+
+.forms__pagination button {
+ background-color: #4caf4fb8;
+ border: none;
+ color: white;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.forms__pagination button:hover {
+ background-color: #45a049;
+}
+
+.forms__pagination button:disabled {
+   background-color:  #494949;
+ cursor: not-allowed;
+}
+
+.basketball-img16 {
+   width: 20px;
+   height: 20px;
+}
+.gls-basket{
+   min-width: 20px;
+   min-height: 20px;
+   max-width: 20px;
+   max-height: 20px;
+   text-decoration: none;
+}
+.span-baskets{
+   font-weight: 700;
+   color: rgb(184, 184, 184);
+   display: inline-block;
+   text-decoration: none;
+   border-bottom: none;
+}
+.span-baskets p {
+   
+   margin-bottom: 0;
+}
+.gls-basket-p{
+   padding-top: 2px;
+}
+@media screen and (max-width:720px) {
+
+   .span-baskets{
+      font-size: clamp(11px,1vw, 16px);
+   }
+   .size11{
+      font-size: clamp(9px,1vw, 16px);
+
+   }
+   .raspisanie__sections-container{
+      width: 98%;
+   }
+   
+ .game_link {
+   display: grid;
+   grid-template-columns: 15% 70% 15%;
+   justify-items: center;
+   align-items: center;
+   margin: 0 auto; /* Добавлено */
+ }
+   
+}
+@media screen and (max-width:580px) {
+
+   .stage{
+      display: none;
+   }
+   
+   .game_link {
+     display: grid;
+     grid-template-columns: 20% 70%;
+     justify-items: center;
+     align-items: center;
+     margin: 0 auto; /* Добавлено */
+   }
+     
+.gls-basket{
+   min-width: 15px;
+   min-height: 15px;
+   max-width: 15px;
+   max-height: 15px;
+   font-size: 8px;
+   text-decoration: none;
+}
+.basketball-img16{
+   display: none;
+}
+.result {
+   display: grid;
+   grid-template-columns: 10px 10px;
+   justify-items: center;
+   align-items: center ;
+ }
+}
+.stage p{
+   text-decoration: none; /* Убираем подчеркивание */
+   color: inherit; /* Наследуем цвет текста */
+   color: rgb(184, 184, 184);
+   text-decoration: none;
+   border-bottom: none;
+   display: inline-block;
+
+}
+.img16 p{
+   text-decoration: none; /* Убираем подчеркивание */
+   color: inherit; /* Наследуем цвет текста */
+   color: rgb(184, 184, 184);
+   text-decoration: none;
+   border-bottom: none;
+   display: inline-block;
+
+}
+.gls-basket p{
+   text-decoration: none; /* Убираем подчеркивание */
+   color: inherit; /* Наследуем цвет текста */
+   text-decoration: none;
+   border-bottom: none;
+   display: inline-block;
+
+
+}

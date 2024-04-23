@@ -1,0 +1,135 @@
+.Table-sections{
+    min-height: 100vh;
+    background-color: #373737;
+
+}
+table {
+  width: 100%;
+
+}
+table, th, td {
+padding: 15px;
+
+    text-align: left;
+}
+
+
+
+
+th, td{
+   
+        font-size: 16px;
+        line-height: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        text-decoration: none solid rgb(194, 194, 194);
+        text-align: left;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        color: rgb(194, 194, 194);
+    
+    } 
+   
+
+
+    .grid-table {
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        gap: 20px; 
+      } 
+
+.table_tr, td:nth-child(2){
+
+}
+.table__tr{
+    background-color: rgb(94,94,94);
+}
+
+
+
+.table_tr2{
+    background-color: rgb(69,69,69);
+}
+
+.img16{
+    display: flex;
+    align-items: center;
+}
+.table__footbal-text{
+    color: white;
+    padding: 30px 0px;
+    
+}
+/* Добавляем стили для мобильных устройств */
+@media screen and (max-width: 768px) {
+    .table__common {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .table__common th,
+    .table__common td {
+      min-width: 100px; /* Минимальная ширина для ячейки */
+    }
+  }
+  
+  /* Остальные стили остаются неизменными */
+  .Table-sections {
+    min-height: 100vh;
+    background-color: #373737;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table,
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th,
+  td {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-decoration: none solid rgb(194, 194, 194);
+    text-align: left;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+    color: rgb(194, 194, 194);
+  }
+  
+  .table__tr {
+    background-color: rgb(94, 94, 94);
+  }
+  
+  .table_tr2 {
+    background-color: rgb(69, 69, 69);
+  }
+  
+  .img16 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .table__footbal-text {
+    color: white;
+    padding: 30px 0px;
+  }
+  

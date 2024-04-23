@@ -1,0 +1,83 @@
+
+.footbal__page {
+    background-color: rgb(55,55,55) !important;
+}
+.footbal__top-text{
+    color: rgb(194,194,194);
+    font-size: clamp(1.50rem, 5vw, 2rem);
+}
+.footbal__card-img img{
+    border-radius: 10px;
+    
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+    max-height: 160px;
+
+}
+.football__card-txt12{
+    color: rgb(194,194,194);
+    padding-top: 10px;
+    font-size: clamp(.875rem, 3vw, 1rem);
+    line-height: 1.25rem;
+    width: 100%;
+
+}
+.footbal__card-img p{
+    color: rgb(194,194,194);
+    padding-top: 10px;
+    font-size: clamp(.875rem, 3vw, 1rem);
+    line-height: 1.25rem;
+    width: 100%;
+}
+.page-item button{
+    border: none;
+    color: white;
+    background-color: rgb(55,55,55);
+
+}
+.pagination {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .footbal__card-img{ 
+        display: flex;
+        gap: 10px;
+    }
+    .footbal__card-img p {
+        padding-top: 0;
+    }
+    .footbal__card{
+        margin-top: 30px;
+    }
+    .footbal__card-img img {
+        border-radius: 10px;
+        width: 50vw;
+        
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+.footbal__blocks{
+    padding-left: 0px;
+}
+.footbal__card-img img{
+    border-radius: 10px;
+    min-height: 120px;
+    max-height: 120px;
+
+}
+}
+
+.football__card-img2 {
+    max-width: 270px;
+    max-height: 160px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

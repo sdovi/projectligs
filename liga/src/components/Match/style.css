@@ -1,0 +1,197 @@
+.match__section{
+    min-height: 100vh;
+    background-color: #373737;
+}
+
+.match__info ul{
+    margin: 0;
+    color: white;
+
+}
+.footbal__teams{
+    display: flex;
+    justify-content: space-between;
+}
+
+.match__section {
+    background-color: #212121;
+    color: #ffffff;
+    padding: 20px;
+}
+.footbal__teams{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.span_match-detail-fotbal
+ p {
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+.tournament {
+    font-size: 24px;
+}
+
+.clubs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.club {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.club-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+.players-header,
+.coaches-header {
+    margin-bottom: 10px;
+}
+
+.players-list,
+.coaches-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-item,
+.coach-item {
+    margin-bottom: 5px;
+}
+
+.coach-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.score span {
+        /* Font & Text */
+    font-size: clamp(20px,4vw, 48px );
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: 72px;
+        text-decoration: none solid rgb(194, 194, 194);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: uppercase;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+        background-attachment: scroll;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        background-position: 0% 0%;
+        background-repeat: repeat;
+        color: rgb(194, 194, 194);
+}
+.score p{
+    /* Font & Text */
+    font-size: clamp(20px,4vw, 48px );
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 72px;
+    text-decoration: none solid rgb(194, 194, 194);
+    text-align: center;
+    text-indent: 0px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(194, 194, 194);
+
+}
+.score{
+    display: flex; 
+}
+.coach-link:hover {
+    text-decoration: underline;
+}
+.match__name{
+    font-size: clamp(10px, 4vw, 25px);
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: clamp(15px, 4vw, 28px);
+        text-decoration: none solid rgb(194, 194, 194);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: uppercase;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+        background-attachment: scroll;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        background-position: 0% 0%;
+        background-repeat: repeat;
+        color: rgb(194, 194, 194);
+
+}
+.club span{
+    font-size: clamp(10px, 4vw, 20px);
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: 28px;
+        text-decoration: none solid rgb(194, 194, 194);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: uppercase;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+        background-attachment: scroll;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        background-position: 0% 0%;
+        background-repeat: repeat;
+        color: rgb(194, 194, 194);
+}
+.match_clubs{
+    display: flex;
+    padding: clamp(10px, 4vw, 20px) clamp(20px, 4vw, 40px);
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #454545bc;
+}
+.club img{
+    max-width: 64px;
+    width: 100%;
+}
+.match__loading{
+    color: white;
+    text-align: center;
+    background-color: #373737;
+    min-height: 100vh;
+    padding-top: 50px;
+    font-size: 25px;
+}
